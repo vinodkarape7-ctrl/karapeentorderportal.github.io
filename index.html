@@ -66,7 +66,7 @@
         const size = startSize + (i * increment);
         const roundedSize = parseFloat(size.toFixed(3));
         const weightGrams = Math.round(roundedSize * 10);
-        const priceRs = Math.round(weightGrams * 5);
+        const priceRs = Math.round(weightGrams * 6);
 
         items.push({ size: roundedSize, weight: weightGrams, price: priceRs });
 
